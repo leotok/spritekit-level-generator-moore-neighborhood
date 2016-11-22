@@ -3,12 +3,12 @@ Generates a SKShapeNode/PhysicsBody based .txt file using Moore Neighborhood Con
 
 ### Example
 
-#### On your `gamescene.swift` add:
+On your `gamescene.swift` add:
 ```swift
 let lvlGen = MooreLevelGenerator();
 lvlGen.loadLevel(self)
 ```
-#### It will load the `Level.txt`file:
+It will load the `Level.txt`file:
 
 ```txt
 111111111111111111111111
@@ -25,5 +25,5 @@ lvlGen.loadLevel(self)
 111111111111101111101111
 111111111111111111111111
 ```
-#### And generate this SKShapeNode with the correct physicsBody
+And generate this SKShapeNode with the correct physicsBody:
 ![Example](img/example.png)
